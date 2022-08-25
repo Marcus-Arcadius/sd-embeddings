@@ -25,8 +25,11 @@ Merging implementation idea:
 * on GUI load merged embeddings file and file containing associations, some sort of list 
 
 [1] find out how many unique characters are usable for upper limit on how many embeddings can be merged
+
 [2] prefer more unique characters from other alphabets that are less likely to be included in the prompt by mistake
+
 [3] this will need to be unique too, ideas for best format, consider that a list of placeholder words can be on the gui and probably clickable to insert into prompt box so it isn't required to be easy to type or very short, but still readable/recognisable 
+
 [4] something like
 ```
 [
